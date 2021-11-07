@@ -1,0 +1,23 @@
+{
+  "name": "aginev/sms-otp",
+  "description": "SMS OTP",
+  "autoload": {
+    "psr-4": {
+      "SmsOtp\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Atanas Ginev",
+      "email": "me@aginev.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.3",
+    "rakit/validation": "^1.4"
+  }
+}
